@@ -29,7 +29,7 @@
             // Esto es una línea de comentario en JAVASCRIPT
             var palabras = ["se", "me", "olvidó", "cómo", "poner", "emojis", "xd", "sori"];
             function setup() {
-                var palabra = 
+                var palabra = random(palabras);
                 createA("page.html?data="+palabra, palabra).parent("next");
                 noCanvas();
             }
